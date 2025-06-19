@@ -59,14 +59,15 @@
     <Compile Include="part1\pract3\IAlert.cs" />
     <Compile Include="part1\pract3\SirenAlert.cs" />
     <Compile Include="part1\pract4\Class1.cs" />
+    <Compile Include="part2\exercise1\BirdsPractt.cs" />
+    <Compile Include="part2\exercise2\Exercise2Run.cs" />
+    <Compile Include="part2\exercise2\ShapePract.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="part2\exercise1\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
