@@ -47,14 +47,24 @@
     <Compile Include="pract1\FileLogger.cs" />
     <Compile Include="pract1\ILogger.cs" />
     <Compile Include="pract1\MissionControl.cs" />
+    <Compile Include="pract1\Start.cs" />
+    <Compile Include="pract2\ILieDetector.cs" />
+    <Compile Include="pract2\RunLaying.cs" />
+    <Compile Include="pract2\TerroristInterrogationUnit.cs" />
+    <Compile Include="pract2\ThermalScanner.cs" />
+    <Compile Include="pract2\VoiceAnalyzer.cs" />
+    <Compile Include="pract3\AlertRun.cs" />
+    <Compile Include="pract3\BaseDefenseController.cs" />
+    <Compile Include="pract3\DroneDispatchAlert.cs" />
+    <Compile Include="pract3\IAlert.cs" />
+    <Compile Include="pract3\SirenAlert.cs" />
+    <Compile Include="pract4\Class1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="pract2\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

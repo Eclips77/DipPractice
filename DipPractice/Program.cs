@@ -1,4 +1,7 @@
 ﻿using DipPractice.pract1;
+using DipPractice.pract2;
+using DipPractice.pract3;
+using MissionSystemDIP;
 
 namespace DipPractice
 {
@@ -6,9 +9,15 @@ namespace DipPractice
     {
         static void Main(string[] args)
         {
-            ILogger logger = new FileLogger();
-            MissionControl mc = new MissionControl(logger);
-            mc.mission();
+            //StartLogger.Run();
+            //RunLaying.Run();
+            //AlertRun.Run();
+
+            ControlRoom controlRoom = new ControlRoom();
+            controlRoom.Launch();
+
         }
     }
+    
+
 }
