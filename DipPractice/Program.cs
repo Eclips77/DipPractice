@@ -1,9 +1,10 @@
-﻿using DipPractice.pract1;
+﻿using DipPractice.part2.exercise2;
+using DipPractice.pract1;
 using DipPractice.pract2;
 using DipPractice.pract3;
 using MissionSystemDIP;
-using DipPractice.part2.exercise2;
-
+using System.Collections.Generic;
+using DipPractice.part2.exercise4;
 namespace DipPractice
 {
     internal class Program
@@ -22,12 +23,21 @@ namespace DipPractice
             //Exercise2Run.TestArea(rect);
             //Exercise2Run.TestArea(square);
 
-            PdfExporter pdfExporter = new PdfExporter();
-            OnlineExporter htmlExporter = new OnlineExporter();
+            //PdfExporter pdfExporter = new PdfExporter();
+            //OnlineExporter htmlExporter = new OnlineExporter();
 
-            ExportDoc.ExportDocument(pdfExporter);
+            //ExportDoc.ExportDocument(pdfExporter);
 
-            htmlExporter.ExportToHTML();
+            //htmlExporter.ExportToHTML();
+
+            var accounts = new List<IAccount>
+        {
+            new BankAccount(1000),
+            new DebtAccount(500)
+
+        };
+            SumAccounts.SumBalances(accounts);
+
         }
     }
     

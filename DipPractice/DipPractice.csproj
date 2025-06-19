@@ -63,6 +63,8 @@
     <Compile Include="part2\exercise2\Exercise2Run.cs" />
     <Compile Include="part2\exercise2\ShapePract.cs" />
     <Compile Include="part2\exercise3\PdfPract.cs" />
+    <Compile Include="part2\exercise4\DecimalPract.cs" />
+    <Compile Include="part2\exercise4\SumAccounts.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
