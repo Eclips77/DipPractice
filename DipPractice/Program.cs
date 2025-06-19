@@ -16,11 +16,18 @@ namespace DipPractice
 
             //ControlRoom controlRoom = new ControlRoom();
             //controlRoom.Launch();
-            Rectangle rect = new Rectangle { Width = 5, Height = 10 };
-            Square square = new Square { Side = 6 };
+            //Rectangle rect = new Rectangle { Width = 5, Height = 10 };
+            //Square square = new Square { Side = 6 };
 
-            Exercise2Run.TestArea(rect);
-            Exercise2Run.TestArea(square);
+            //Exercise2Run.TestArea(rect);
+            //Exercise2Run.TestArea(square);
+
+            PdfExporter pdfExporter = new PdfExporter();
+            OnlineExporter htmlExporter = new OnlineExporter();
+
+            ExportDoc.ExportDocument(pdfExporter);
+
+            htmlExporter.ExportToHTML();
         }
     }
     
