@@ -2,6 +2,7 @@
 using DipPractice.pract2;
 using DipPractice.pract3;
 using MissionSystemDIP;
+using DipPractice.part2.exercise2;
 
 namespace DipPractice
 {
@@ -15,7 +16,11 @@ namespace DipPractice
 
             //ControlRoom controlRoom = new ControlRoom();
             //controlRoom.Launch();
+            Rectangle rect = new Rectangle { Width = 5, Height = 10 };
+            Square square = new Square { Side = 6 };
 
+            Exercise2Run.TestArea(rect);
+            Exercise2Run.TestArea(square);
         }
     }
     
