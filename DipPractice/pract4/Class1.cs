@@ -59,7 +59,7 @@ namespace MissionSystemDIP
 
         public void PlanMission(string location)
         {
-            Console.WriteLine("=== Mission Plan ===");
+            Console.WriteLine(" Mission Briefing ");
             var intel = _intelService.GatherIntel(location);
             var map = _mapService.LoadMap(location);
             Console.WriteLine(intel);
