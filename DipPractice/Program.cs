@@ -13,8 +13,8 @@ namespace DipPractice
             //RunLaying.Run();
             //AlertRun.Run();
 
-            ControlRoom controlRoom = new ControlRoom();
-            controlRoom.Launch();
+            //ControlRoom controlRoom = new ControlRoom();
+            //controlRoom.Launch();
 
         }
     }
